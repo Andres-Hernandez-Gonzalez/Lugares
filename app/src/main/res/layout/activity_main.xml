@@ -20,7 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:hint="@string/correo_usuario_entrada_hint"
+        android:inputType="textEmailAddress"
+        android:minHeight="50dp" />
 
     <TextView
         android:id="@+id/textViewPassword"
@@ -34,7 +36,9 @@
         android:id="@+id/et_clave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="clave de ingreso"
         android:ems="10"
+        android:hint="Contraseña"
         android:inputType="textPassword" />
 
     <LinearLayout
